@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoFinalDistribuidos">
         <activity
+            android:name=".Chat"
+            android:exported="false" />
+        <activity
+            android:name=".MenuChat"
+            android:exported="false" />
+        <activity
             android:name=".LogIn"
             android:exported="false" />
         <activity
